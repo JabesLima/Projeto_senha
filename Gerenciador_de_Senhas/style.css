@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+body{
+    background: url("albert-eynshteyn-albert-4139.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 102vh;
+    color: white;
+}
+
+.container{
+    background: transparent;
+    width: 400px;
+    padding: 40px;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family:cursive;
+}
+
+.container .slider{
+    padding: 10px 0px 20px 0px;
+    
+}
+
+.container .caracteris {
+    font-size: 20px;
+    padding: 20px 0px 20px 0px;
+}
+
+.container .slider #medidor{
+    -webkit-appearance: none;
+    padding: 3px;
+    border-radius: 40px;
+}
+
+.container .button{
+    padding: 10px;
+    border-radius: 40px;
+}
+ 
+button:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.container .resp{
+    font-size: 20px;
+    padding: 20px 0px 20px 0px;
+}
+
+.container .senha{
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.541);
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.container .senha:hover{
+    transform:scale(1.5) ;
+}
